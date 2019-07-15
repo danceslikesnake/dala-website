@@ -34,7 +34,7 @@ class DalaToday extends Component {
             <div className="container">
               <div className="columns">
                 <div className="column is-4">
-                  <div className="has-text-centered"><img src={WalaLogo} className="dala-today-wala-logo" /></div>
+                  <div className="has-text-centered"><img src={WalaLogo} className="dala-today-wala-logo" alt="dala today wala logo" /></div>
                   <p>Wala, a zero-fee financial services app for emerging markets, is the first major contributor to Dala’s open source development and the first application to enable the use of $DALA for transactions and peer-to-peer transfers.</p>
                 </div>
                 <div className="column is-4 has-text-centered dala-today-phone-column">
@@ -46,11 +46,11 @@ class DalaToday extends Component {
                       <source src={videoMov} type="video/mov"/>
                     </video>
                   </div>
-                  <img src={PhoneBase} className="dala-today-phone-base" />
+                  <img src={PhoneBase} className="dala-today-phone-base" alt="phone" />
                 </div>
                 <div className="column is-4">
                   <div className="dala-today-stat">
-                    <div><img src={userIcon} className="user-icon" /></div>
+                    <div><img src={userIcon} className="user-icon" alt="user icon" /></div>
                     Over 100K<br />Users
                   </div>
                   <p>Today over 100K consumers in Africa are using Dala to send zero-fee payments, remit across borders, and purchase value-added services like mobile data, electricity, and TV services. Together, Dala and Wala are removing all barriers enabling zero-fee and accessible financial services.</p>

@@ -4,9 +4,7 @@ import React, {Component} from 'react';
 import './DalaEcosystem.css';
 
 // images
-import HexagonLock from './images/hexagon-lock.svg';
 import DalaLogo from './images/dalaHexagon.svg';
-import WalaLogo from './images/EcosystemWalaLogo.svg';
 
 // components
 import CallToAction from '../CallToAction/CallToAction';
@@ -47,7 +45,7 @@ class DalaEcosystem extends Component {
                       <div className="column remove-padding">
                         <div className="video-container">
                           <iframe className="embed" src="https://player.vimeo.com/video/285034187" width="100%" height="auto"
-                                  frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+                                  frameBorder="0" allow="autoplay; fullscreen" allowFullScreen title="Dala documetary"></iframe>
                         </div>
                       </div>
                     </div>
